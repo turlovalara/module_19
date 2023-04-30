@@ -1,4 +1,4 @@
-from app import PetFriends
+from api import PetFriends
 from settings import valid_email, valid_password, invalid_email, invalid_password
 import os
 
