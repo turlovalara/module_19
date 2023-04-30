@@ -5,7 +5,7 @@ from requests_toolbelt.multipart.encoder import MultipartEncoder
 class PetFriends:
     '''Библиотека содержит API запросы к приложению PetFriends'''
     def __init__(self):
-        self.base_url = 'https://petstore.swagger.io/v2/pet'
+        self.base_url = 'https://petfriends.skillfactory.ru/'
 
     def get_app_key(self, email: str, password: str) -> json:
         '''Метод делает get запрос к API  сервера с емейлом и паролем
